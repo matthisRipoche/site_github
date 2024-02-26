@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital@0;1&display=swap');
+
+:root{
+    --color-background: #0D1117;
+    --color-foot-background: #161B22;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "Noto Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+h3 b{
+    font-size: 2em;
+    font-weight: 800;
+}
+
+b{
+    font-weight: 600;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+}
+
+li a{
+    color: gray;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 15%;
+}
+
+/* Footer */
+
+.MainFooter button{
+    background-color: var(--color-background);
+    border: 2px ridge rgb(26, 26, 26);
+    border-radius: 0.5rem;
+    padding: 2% 5%;
+    display: inline-block;
+}
+
+.MainFooter{
+    background-color: var(--color-background);
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.MainLeftFooter{
+    display: flex;
+    flex-direction: column;
+
+    gap: 20%;
+}
+
+.BottomFooter{
+    background-color: var(--color-foot-background);
+}
+.BottomFooter ul{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0px;
+
+    align-items: center;
+    gap: 1rem;
+}
+
