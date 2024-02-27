@@ -4,7 +4,12 @@
     --color-background: #0D1117;
     --color-foot-background: #161B22;
     --color-gris: #8B949E;
+    --color-white: #FFFFFF;
 }
+
+
+/*----------------------------------------------------------*/
+/* Général */
 
 *{
     margin: 0px;
@@ -57,7 +62,9 @@ li a{
     padding: 0 320px;
 }
 
+/*----------------------------------------------------------*/
 /* Main4 */
+
 .container-main4{
     display: flex;
     flex-direction: column;
@@ -79,10 +86,23 @@ li a{
     text-align: center;
 }
 
-.container-main4 button{
+.container-main4-button{
+    display: flex;
+    flex-direction: row;
 
 }
 
+.container-main4-button button{
+    border: 2px var(--color-gris) ;
+}
+
+#button-sign{
+    background: var(--color-white);
+}
+#button-start{
+    color: var(--color-white);
+}
+/*----------------------------------------------------------*/
 /* Footer */
 
 .MainFooter button{
