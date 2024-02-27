@@ -67,6 +67,8 @@ li a{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    background-image: url("data\main4\footer-galaxy.png");
 }
 
 .container-main4 h2{
