@@ -31,13 +31,9 @@ ul{
     list-style: none;
 }
 
-h3 b{
+h3{
     font-size: 2em;
     font-weight: 800;
-}
-
-b{
-    font-weight: 600;
 }
 
 button:hover{
@@ -59,7 +55,9 @@ li a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 320px;
+    padding: 0 20%;
+
+    background-color: var(--color-background);
 }
 
 /*----------------------------------------------------------*/
@@ -68,7 +66,6 @@ li a{
 .container-main4{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -89,7 +86,6 @@ li a{
 .container-main4-button{
     display: flex;
     flex-direction: row;
-
 }
 
 .container-main4-button button{
@@ -102,6 +98,48 @@ li a{
 #button-start{
     color: var(--color-white);
 }
+
+/* gérer les ima */
+
+.img-main4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#planete{
+    position: relative;
+    scale: 0.7;
+    bottom: 0;
+
+    height: auto;
+    width: auto;
+}
+#astrocat{
+    position: absolute;
+    scale: 0.7;
+    bottom: 0;
+
+    height: auto;
+    width: auto;
+}
+
+/*----------------------------------------------------------*/
+/* Légal txt */
+
+.legal-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20%;
+    background-color: var(--color-background);
+}
+.legal-text p{
+    font-size: 14px;
+    color: var(--color-gris);
+}
+
+
 /*----------------------------------------------------------*/
 /* Footer */
 
@@ -121,10 +159,13 @@ li a{
     padding-bottom: 70px;
 }
 
+nav ul li{
+    line-height: 30px;
+}
+
 .MainLeftFooter{
     display: flex;
     flex-direction: column;
-
     gap: 20%;
 }
 
