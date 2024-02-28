@@ -61,6 +61,11 @@ li a{
 }
 
 /*----------------------------------------------------------*/
+/* Main3 */
+
+
+
+/*----------------------------------------------------------*/
 /* Main4 */
 
 .fond-espace{
@@ -85,11 +90,15 @@ li a{
 .container-main4 p{
     color: var(--color-gris);
     text-align: center;
+    font-size: 19px;
+
+    padding: 30px 150px 70px 150px;
 }
 
 .container-main4-button{
     display: flex;
     flex-direction: row;
+    gap: 20px;
 }
 
 .container-main4-button button{
@@ -97,13 +106,31 @@ li a{
 }
 
 #button-sign{
+    font-size: 19px;
+    font-weight: 700;
     background: var(--color-white);
+    color: var(--color-background);
+    height: 57px;
+    width: 265.84px;
+    text-align: center;
+
+    border-radius: 0.5em;
 }
 #button-start{
+    font-size: 19px;
+    font-weight: 700;
+    background: var(--color-background);
     color: var(--color-white);
+    height: 57px;
+    width: 345.25px;
+    text-align: center;
+
+    border-radius: 0.5em;
+    border-style: ridge;
+    border-color: var(--color-gris);
 }
 
-/* gérer les ima */
+/* gérer les img */
 
 .img-main4{
     display: flex;
@@ -114,7 +141,7 @@ li a{
 #planete{
     position: relative;
     scale: 0.9;
-    bottom: 0;
+    bottom: 0px;
 
     height: auto;
     width: auto;
@@ -122,7 +149,7 @@ li a{
 #astrocat{
     position: absolute;
     scale: 0.9;
-    bottom: 0;
+    bottom: -600px;
 
     height: auto;
     width: auto;
