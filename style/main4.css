@@ -68,9 +68,7 @@
 /* gérer les img */
 
 .img-main4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  width: 100%;
 }
 
 #planete {
@@ -82,9 +80,10 @@
   width: auto;
 }
 #astrocat {
-  position: absolute;
   scale: 0.9;
-  bottom: -600px;
+  position: absolute;
+  bottom: initial;
+  bottom: 0px;
 
   height: auto;
   width: auto;
