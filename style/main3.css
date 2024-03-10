@@ -1,0 +1,7 @@
+/*----------------------------------------------------------*/
+/* Main3 */
+
+.container-main3 {
+  display: flex;
+  flex-direction: column;
+}

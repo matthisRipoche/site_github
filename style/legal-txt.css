@@ -1,0 +1,14 @@
+/*----------------------------------------------------------*/
+/* Légal txt */
+
+.legal-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 20%;
+  background-color: var(--color-background);
+}
+.legal-text p {
+  font-size: 14px;
+  color: var(--color-gris);
+}

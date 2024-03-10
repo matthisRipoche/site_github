@@ -1,0 +1,57 @@
+/*----------------------------------------------------------*/
+/* Footer */
+
+.MainFooter {
+  display: flex;
+  width: 100%;
+  background-color: var(--color-background);
+  padding-top: 50px;
+  padding-bottom: 70px;
+
+  gap: 20px;
+}
+
+.MainLeftFooter button {
+  background-color: var(--color-background);
+  border: 2px ridge rgb(26, 26, 26);
+  border-radius: 0.5rem;
+  padding: 2% 5%;
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+
+  color: var(--color-white);
+}
+
+.MainRightFooter {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.MainRightFooter ul li {
+  line-height: 30px;
+}
+
+.MainLeftFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  color: var(--color-white);
+}
+
+.BottomFooter {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: var(--color-foot-card-background);
+}
+.BottomFooter ul {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0px;
+
+  align-items: center;
+  gap: 1rem;
+}
